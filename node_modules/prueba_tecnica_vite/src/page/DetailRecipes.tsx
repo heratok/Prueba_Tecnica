@@ -2,6 +2,7 @@ import  { useEffect } from 'react';
 import { useAppStore } from '../store/Appstate';
 import CardDetailsRecipes from '../components/CardDetailsRecipes';
 import { useParams } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 interface RouteParams {
   id?: string; // Haz que id sea opcional
@@ -24,6 +25,7 @@ function DetailRecipes() {
   return (
     <div>
       <CardDetailsRecipes />
+      <Footer/>
     </div>
   );
 }
