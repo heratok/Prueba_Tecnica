@@ -36,7 +36,7 @@
    En la misma terminal, ejecuta:
 
    ```bash
-   npx turbo run dev
+   npm run dev
    ```
 
 6. **Visualizar el Proyecto:**
