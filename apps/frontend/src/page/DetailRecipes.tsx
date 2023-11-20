@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 import { useAppStore } from '../store/Appstate';
 import CardDetailsRecipes from '../components/CardDetailsRecipes';
-import { Routes, Route, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 interface RouteParams {
   id?: string; // Haz que id sea opcional

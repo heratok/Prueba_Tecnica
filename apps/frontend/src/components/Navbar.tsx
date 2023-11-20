@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter as  Route, Link } from 'react-router-dom';
 
 function Navbar() {
   return (

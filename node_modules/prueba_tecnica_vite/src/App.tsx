@@ -1,7 +1,3 @@
-import React from "react";
-import { useEffect } from "react";
-import { useAppStore } from "./store/Appstate";
-import { shallow } from "zustand/shallow";
 import { Home } from "./page/Home";
 import DetailRecipes from "./page/DetailRecipes";
 import Footer from "./components/Footer";
@@ -13,7 +9,6 @@ import {
   createRoutesFromElements,
   Outlet,
   Route,
-  Router,
 } from "react-router-dom";
 
 function App() {
