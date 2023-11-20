@@ -6,7 +6,7 @@ function Navbar() {
     <ul>
     <div className="top-0 z-10 w-full ">
         <div className="flex items-center justify-between w-full p-4 bg-red-600 header">
-          <Link to='/'className="text-3xl font-bold">E-commerce</Link>
+          <Link to='/'className="p-2 text-3xl font-bold">Typical Meals</Link>
         </div>
       </div>
     </ul>

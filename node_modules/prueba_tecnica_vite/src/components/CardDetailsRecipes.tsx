@@ -25,14 +25,14 @@ function CardDetailsRecipes() {
               {detailRecipe.title}
             </p>
           </div>
-          <div className="h-48 ">
-            <p>{"descripcion"}</p>
+          <div className="h-48">
+            <p>healthScore: {detailRecipe.healthScore}%</p>
+            <br />
+            <p>Regular price per serving: ${detailRecipe.pricePerServing}</p>
+            <br />
+            <p>Source Name by: {detailRecipe.sourceName}</p>
+            <br />
           </div>
-          <div>
-          </div>
-          <p className="text-sm text-slate-700">
-            Free shipping on all continental US orders.
-          </p>
         </form>
       </div>
     </div>
